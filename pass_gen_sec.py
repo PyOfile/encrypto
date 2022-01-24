@@ -4,7 +4,7 @@ import string
 from random import choice, randint
 from time import sleep
 
-x = input('PW Mnemonic id: ')
+x = input('PW Mnemonic ID: ')
 
 path = './.later_retrieval.log' # Plan text log in home directory, set as a hidden dot file.
 later = open(path, 'a')
