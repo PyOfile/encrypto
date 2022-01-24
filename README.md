@@ -12,7 +12,7 @@ sudo apt update && sudo apt upgrade -y && sudo apt install python3-pip -y && sud
 python3 -m venv env
 ```
 #
-### environment activation env
+### Environment Activation
 ```
 source env/bin/activate
 ```
@@ -29,7 +29,7 @@ python3 pass_gen.py
 python3 pass_gen_sec.py
 ```
 #
-### environment deactivation
+### Environment Deactivation
 ```
 deactivate
 ```
