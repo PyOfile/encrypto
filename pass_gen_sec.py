@@ -6,7 +6,7 @@ from time import sleep
 
 x = input('PW Mnemonic id: ')
 
-path = './.later_retrieval.log'
+path = './.later_retrieval.log' # Plan text log in you home directory, set as a hidden dot file.
 later = open(path, 'a')
 
 characters = string.ascii_letters + string.digits + string.punctuation
@@ -16,4 +16,3 @@ print(p)
 later.write('\n' + x + ': ' + (p))
 later.close()
 sleep(10)
-
