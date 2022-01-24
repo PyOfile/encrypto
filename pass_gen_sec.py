@@ -10,7 +10,7 @@ path = './.later_retrieval.log' # Plan text log in home directory, set as a hidd
 later = open(path, 'a')
 
 characters = string.ascii_letters + string.digits + string.punctuation
-p = "".join(choice(characters)for x in range(randint(32, 32)))
+p = "".join(choice(characters)for x in range(randint(32, 32))) # Number of charactors long.
 
 print(p)
 later.write('\n' + x + ': ' + (p))
